@@ -1,0 +1,32 @@
+{
+	"name": "dj-otrovata",
+	"version": "0.1.0",
+	"description": "Very simple discord music bot with the discordjs.guide command handler for easy learning and adapting.",
+	"main": "src/index.js",
+	"author": "Dolan Bright",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"start": "node ."
+	},
+	"dependencies": {
+		"discord.js": "^12.2.0",
+		"dotenv": "^8.2.0",
+		"ytdl-core": "^2.1.4"
+	},
+	"devDependencies": {
+		"eslint": "^7.1.0",
+		"eslint-config-aqua": "^7.2.4"
+	},
+	"optionalDependencies": {
+		"@discordjs/opus": "^0.3.2",
+		"erlpack": "github:discord/erlpack",
+		"zlib-sync": "^0.1.6"
+	},
+	"eslintConfig": {
+		"extends": "aqua/node"
+	},
+	"renovate": {
+		"extends": [ "teal" ]
+	}
+}
